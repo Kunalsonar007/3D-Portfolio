@@ -168,10 +168,14 @@ const HeroBanner = () => {
           {/* HIRE ME BUTTON START */}
           <div
             className="absolute top-[140px] -right-10 2xl:top-[240px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
-            onClick={() => scrollTo("contact")}
+            onClick={() => scrollTo("")}
           >
             <img src={externalLinkIcon} alt="" className="w-[15px]" />
-            <div className="text-black">Hire Me</div>
+            <div className="text-black">
+              <a href="resume.pdf" download="resume.pdf">
+                Resume
+              </a>
+            </div>
           </div>
           {/* HIRE ME BUTTON END */}
         </motion.div>

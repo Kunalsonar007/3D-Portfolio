@@ -172,7 +172,7 @@ const HeroBanner = () => {
           >
             <img src={externalLinkIcon} alt="" className="w-[15px]" />
             <div className="text-black">
-              <a href="resume.pdf" download="resume.pdf">
+              <a href="https://drive.google.com/file/d/1A1iih_eN3sn5cHfPCTwpm-8knR168CbI/view?usp=sharing" target="_blank" download="resume.pdf">
                 Resume
               </a>
             </div>

@@ -4,6 +4,7 @@ import p3 from "./assets/dashboard_infographics.png";
 import p4 from "./assets/fyp.png";
 import p5 from "./assets/dashboard.png";
 import p6 from "./assets/wizarding.png";
+import p7 from "./assets/llama.png";
 
 export const filters = [
   {
@@ -26,6 +27,13 @@ export const filters = [
 
 export const projects = [
   {
+    name: "Llama - Tutor ",
+    image: p7,
+    tags: ["dashboard", "website"],
+    codeLink: "https://llama-ai-tutor.vercel.app/",
+    // videoLink: "https://www.youtube.com/watch?v=8QZqX0ZxJZ8",
+  },
+  {
     name: "Interstellar - Age Calculator ",
     image: p1,
     tags: ["dashboard", "website"],
@@ -38,13 +46,13 @@ export const projects = [
     tags: ["website"],
     codeLink: "https://krazyykunal.vercel.app/",
   },
-  {
+  /* {
     name: "Weather - App ",
     image:
       "https://raw.githubusercontent.com/Kunalsonar007/Weather-App/master/preview.png",
     tags: ["all"],
     codeLink: "https://github.com/Kunalsonar007/Weather-App",
-  },
+  },*/
   {
     name: "Crypto Hunter - Tracker",
     image:

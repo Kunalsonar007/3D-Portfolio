@@ -1,6 +1,6 @@
 import p1 from "./assets/interstellar.png";
 import p2 from "./assets/portfolio.png";
-import p3 from "./assets/dashboard_infographics.png";
+import p3 from "./assets/crypto.png";
 import p4 from "./assets/fyp.png";
 import p5 from "./assets/dashboard.png";
 import p6 from "./assets/wizarding.png";
@@ -55,8 +55,7 @@ export const projects = [
   },*/
   {
     name: "Crypto Hunter - Tracker",
-    image:
-      "https://user-images.githubusercontent.com/76047915/163677963-20263405-0da2-432c-934f-1d7f802b4f1f.png",
+    image: p3,
     tags: ["mobile-app", "dashboard"],
     codeLink: "https://cryptohunter111.netlify.app/",
   },

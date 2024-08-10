@@ -27,7 +27,7 @@ export const filters = [
 
 export const projects = [
   {
-    name: "Llama - Tutor ",
+    name: "Llama AI Tutor ",
     image: p7,
     tags: ["dashboard", "website"],
     codeLink: "https://llama-ai-tutor.vercel.app/",

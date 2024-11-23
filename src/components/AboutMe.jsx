@@ -126,11 +126,11 @@ const AboutMe = () => {
               >
                 {/* Corrected circle alignment */}
                 <span className="absolute -left-[10px] w-[18px] h-[18px] bg-gray-300 rounded-full" />
-                <div className="text-[18px] md:text-[20px] font-semibold leading-3">
+                <div className="text-[18px] md:text-[20px] font-semibold">
                   {item.year}
                 </div>
                 <div className="text-[16px] md:text-[18px]">
-                  <span className="font-bold">{item.role}</span>
+                  <span className="font-bold opacity-60">{item.role}</span>
                   <br /> @{""}
                   <span className="italic">{item.company}</span>
                 </div>

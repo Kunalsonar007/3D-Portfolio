@@ -126,7 +126,7 @@ const AboutMe = () => {
               >
                 {/* Corrected circle alignment */}
                 <span className="absolute -left-[10px] w-[18px] h-[18px] bg-gray-300 rounded-full" />
-                <div className="text-[18px] md:text-[20px] font-semibold">
+                <div className="text-[18px] md:text-[20px] font-semibold leading-3">
                   {item.year}
                 </div>
                 <div className="text-[16px] md:text-[18px]">

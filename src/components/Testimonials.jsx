@@ -73,8 +73,7 @@ const Testimonials = () => {
               <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
                 Kunal brought both creativity and precision to our project. He
                 not only delivered a cutting-edge solution but also ensured
-                every detail was executed to perfection. His collaborative
-                approach made the entire process seamless.
+                every detail was executed to perfection.
               </div>
             </div>
             {/* SLIDE END */}
@@ -94,8 +93,7 @@ const Testimonials = () => {
                 Kunal is not just a friend but a constant source of inspiration.
                 His dedication to his work and personal growth motivates
                 everyone around him. He’s always there to lend a helping hand
-                and share his wisdom, making him an irreplaceable part of my
-                life.
+                and share his wisdom.
               </div>
             </div>
             {/* SLIDE END */}

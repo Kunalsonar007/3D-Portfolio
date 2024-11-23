@@ -81,7 +81,7 @@ const Form = () => {
             <input
               name="from_name"
               type="text"
-              className="h-[64px] bg-white outline-gray-300 outline border-none text-black px-4 rounded-lg"
+              className="h-[64px] bg-white outline-gray-200 outline border-none text-black px-4 rounded-lg"
               required
               autoComplete="off"
               onChange={onChange}
@@ -100,7 +100,7 @@ const Form = () => {
             <input
               name="from_email"
               type="email"
-              className="h-[64px] bg-white outline-gray-300 outline border-none text-black px-4 rounded-lg"
+              className="h-[64px] bg-white outline-gray-200 outline border-none text-black px-4 rounded-lg"
               required
               autoComplete="off"
               onChange={onChange}
@@ -118,7 +118,7 @@ const Form = () => {
           </label>
           <textarea
             name="message"
-            className="h-[162px] bg-white outline-gray-300 outline border-none text-black p-4 resize-none rounded-lg"
+            className="h-[162px] bg-white outline-gray-200 outline border-none text-black p-4 resize-none rounded-lg"
             required
             onChange={onChange}
           />

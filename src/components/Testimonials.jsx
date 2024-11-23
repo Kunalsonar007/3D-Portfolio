@@ -38,24 +38,23 @@ const Testimonials = () => {
         <Div className="bg-[#F2F2F2] w-full md:w-[834px] rounded-[20px] mx-auto relative mb-[50px]">
           <Carousel>
             {/* SLIDE START */}
-            <div className="text-black flex items-center flex-col px-[25px] md:px-[50px] py-[50px]">
+            <div className="text-black flex items-center flex-col px-[25px] md:px-[50px] pt-[50px]">
               <div className="mb-[25px]">
                 <img
-                  src="https://i.postimg.cc/Vv995h7F/1638340800227.jpg"
+                  src="https://i.ibb.co/qr4P5w5/download.jpg"
                   className="w-[80px] h-[80px] max-w-[80px] rounded-full"
                 />
-                <div className="font-bold">Sameer Ali</div>
+                <div className="font-bold">Aarav Singh</div>
                 <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                  Client
+                  Senior Developer @Snap Inc
                 </div>
               </div>
               <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                Kunal has been an outstanding collaborator for the past two
-                years. Their expertise in web development, Python, Java, and
-                writing tasks has been instrumental in the success of our
-                projects. I highly recommend their services for their
-                professionalism, versatile skill set, and consistent delivery of
-                high-quality work.
+                Kunal is an outstanding developer who brings clarity and focus
+                to every project. His technical expertise and leadership skills
+                inspire everyone around him. Working alongside him has been an
+                enriching experience, and his contributions have significantly
+                strengthened our team.
               </div>
             </div>
             {/* SLIDE END */}
@@ -63,22 +62,19 @@ const Testimonials = () => {
             <div className="text-black flex items-center flex-col px-[25px] md:px-[50px] py-[50px]">
               <div className="mb-[25px]">
                 <img
-                  src="https://cdn.vox-cdn.com/thumbor/prOpkedoBuug-BYnjiTEGaDfUUM=/0x0:2040x1360/1400x1400/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24002231/Evan_Spiegel.jpg"
+                  src="https://i.ibb.co/0tchXQZ/download.jpg"
                   className="w-[80px] h-[80px] max-w-[80px] rounded-full"
                 />
-                <div className="font-bold">Noman Oman</div>
-                <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                  Client
+                <div className="font-bold">Pooja Verma</div>
+                <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center italic">
+                  Founder of StartUpBoost
                 </div>
               </div>
               <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                I had the pleasure of mentoring Kunal during their early days at
-                Snapchat, and it's been incredible to witness their growth as an
-                AR developer. Kunal not only grasps complex AR concepts quickly
-                but also has an innate ability to turn them into captivating
-                user experiences. His/her passion for AR technology is
-                contagious, making Kunal an invaluable member of our Snapchat
-                family.
+                Kunal brought both creativity and precision to our project. He
+                not only delivered a cutting-edge solution but also ensured
+                every detail was executed to perfection. His collaborative
+                approach made the entire process seamless.
               </div>
             </div>
             {/* SLIDE END */}
@@ -86,21 +82,20 @@ const Testimonials = () => {
             <div className="text-black flex items-center flex-col px-[25px] md:px-[50px] py-[50px]">
               <div className="mb-[25px]">
                 <img
-                  src="https://pics.craiyon.com/2023-07-03/daaf4af17fe44ec9b481679dad02ba85.webp"
+                  src="https://i.ibb.co/Mf1RHpj/download.jpg"
                   className="w-[80px] h-[80px] max-w-[80px] rounded-full"
                 />
-                <div className="font-bold">John Doy</div>
+                <div className="font-bold">Rahul Thapa</div>
                 <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                  Client
+                  Community Manager @Google
                 </div>
               </div>
               <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                Working with Kunal was a game-changer for our project. His/her
-                deep understanding of software development principles, coupled
-                with an impressive problem-solving ability, ensured the
-                successful and timely delivery of our application. Kunal is not
-                just a skilled developer but also an excellent communicator,
-                making the collaboration a seamless and enjoyable experience
+                Kunal is not just a friend but a constant source of inspiration.
+                His dedication to his work and personal growth motivates
+                everyone around him. He’s always there to lend a helping hand
+                and share his wisdom, making him an irreplaceable part of my
+                life.
               </div>
             </div>
             {/* SLIDE END */}

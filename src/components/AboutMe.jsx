@@ -122,10 +122,10 @@ const AboutMe = () => {
             {timeline.map((item, index) => (
               <div
                 key={index}
-                className="timeline-item relative border-l-2 border-gray-600 pl-[20px]"
+                className="timeline-item relative border-l-[1.5px] border-gray-600 pl-[20px]"
               >
                 {/* Corrected circle alignment */}
-                <span className="absolute -left-[10px] w-[18px] h-[18px] bg-gray-300 rounded-full" />
+                <span className="absolute -left-[10px] top-[5px] w-[18px] h-[18px] bg-gray-300 rounded-full" />
                 <div className="text-[18px] md:text-[20px] font-semibold  opacity-70">
                   {item.year}
                 </div>

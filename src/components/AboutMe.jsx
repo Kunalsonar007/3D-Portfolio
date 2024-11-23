@@ -28,21 +28,21 @@ const AboutMe = () => {
         "Part of the Lens Studio Team and lens design for Snapchat's AR platform.",
     },
     // {
-    //   year: "Oct 2022 - Mar 2023",
+    //   year: "Oct 2022 - Feb 2023",
     //   role: "Ethical Hacker (𝘐𝘯𝘵𝘦𝘳𝘯)",
     //   company: "Delhi Police.",
     //   description:
     //     "Contributed expertise to resolve diverse cybercrime cases, aiding in safeguarding digital landscapes.",
     // },
     {
-      year: "Jan 2022 - Dec 2022",
+      year: "Jan 2022 - Feb 2023",
       role: "Cyber Crime Expert (𝘐𝘯𝘵𝘦𝘳𝘯)",
       company: "Mumbai Police.",
       description:
         "Worked with the Mumbai Police to solve complex cybercrime cases and enhance digital security.",
     },
     {
-      year: "Sep 2021 - Feb 2022",
+      year: "Aug 2021 - Jan 2022",
       role: "Jr Software Developer (𝘐𝘯𝘵𝘦𝘳𝘯)",
       company: "SBIT W.L.L.",
       description:

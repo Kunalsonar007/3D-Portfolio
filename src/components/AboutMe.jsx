@@ -11,6 +11,45 @@ const AboutMe = () => {
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 500], [100, 0], { clamp: false });
   const y2 = useTransform(scrollY, [0, 500], [0, -200], { clamp: false });
+
+  // Timeline data
+  const timeline = [
+    {
+      year: "Aug 2024 - Present",
+      role: "SDE - I",
+      company: "Snap Inc.",
+      description: "Software Engineer on the Snapchat's AR & lens design team.",
+    },
+    {
+      year: "Mar 2023 - Jul 2024",
+      role: "AR Development (𝘐𝘯𝘵𝘦𝘳𝘯)",
+      company: "Snap Inc.",
+      description:
+        "Part of the Lens Studio Team and lens design for Snapchat's AR platform.",
+    },
+    {
+      year: "Oct 2022 - Mar 2023",
+      role: "Ethical Hacker (𝘐𝘯𝘵𝘦𝘳𝘯)",
+      company: "Delhi Police.",
+      description:
+        "Contributed expertise to resolve diverse cybercrime cases, aiding in safeguarding digital landscapes.",
+    },
+    {
+      year: "Jan 2022 - Dec 2022",
+      role: "Cyber Crime Expert (𝘐𝘯𝘵𝘦𝘳𝘯)",
+      company: "Mumbai Police.",
+      description:
+        "Worked with the Mumbai Police to solve complex cybercrime cases and enhance digital security.",
+    },
+    {
+      year: "Sep 2021 - Feb 2022",
+      role: "Jr Software Developer (𝘐𝘯𝘵𝘦𝘳𝘯)",
+      company: "SBIT W.L.L.",
+      description:
+        "Worked extensively with WordPress to maintain and enhance e-commerce and other websites.",
+    },
+  ];
+
   return (
     <div
       id="about"
@@ -57,7 +96,8 @@ const AboutMe = () => {
           as software design, agile methodologies, and user experience (UX)
           design. To stay updated with the latest trends and technologies in the
           field, I actively participate in seminars and workshops, including the
-          Hack This Fall 2023 (HTF'23 - Winner 🥇) and Google Community Summit'23
+          Hack This Fall 2023 (HTF'23 - Winner 🥇) and Google Community
+          Summit'23
         </Div>
         {/* PARAGRAPH END */}
 
@@ -70,6 +110,37 @@ const AboutMe = () => {
           complex problems head-on.
         </Div>
         {/* PARAGRAPH END */}
+
+        {/* WORK EXPERIENCE TIMELINE START */}
+        <div className="timeline mt-[50px] bg-black p-4 text-white rounded-lg z-10">
+          {/* HEADING START */}
+          <Div className="text-[40px] md:text-[90px] 2xl:text-[70px] leading-[52px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase mb-[25px] flex flex-col relative">
+            <span>Work Experience</span>
+          </Div>
+          {/* HEADING END */}
+          <div className="flex flex-col gap-[30px] p-2">
+            {timeline.map((item, index) => (
+              <div
+                key={index}
+                className="timeline-item relative border-l-2 border-gray-600 pl-[20px]"
+              >
+                {/* Corrected circle alignment */}
+                <span className="absolute -left-[10px] w-[18px] h-[18px] bg-gray-300 rounded-full" />
+                <div className="text-[18px] md:text-[20px] font-semibold">
+                  {item.year}
+                </div>
+                <div className="text-[16px] md:text-[18px]">
+                  <span className="font-bold">{item.role}</span> @{""}
+                  <span className="italic">{item.company}</span>
+                </div>
+                <div className="text-[14px] md:text-[16px] text-gray-300">
+                  {item.description}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        {/* WORK EXPERIENCE TIMELINE END */}
       </Wrapper>
     </div>
   );

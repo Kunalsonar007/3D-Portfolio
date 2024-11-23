@@ -22,7 +22,7 @@ const AboutMe = () => {
     },
     {
       year: "Mar 2023 - Jul 2024",
-      role: "AR Development (𝘐𝘯𝘵𝘦𝘳𝘯)",
+      role: "AR Dev (𝘐𝘯𝘵𝘦𝘳𝘯)",
       company: "Snap Inc.",
       description:
         "Part of the Lens Studio Team and lens design for Snapchat's AR platform.",
@@ -130,7 +130,8 @@ const AboutMe = () => {
                   {item.year}
                 </div>
                 <div className="text-[16px] md:text-[18px]">
-                  <span className="font-bold">{item.role}</span> @{""}
+                  <span className="font-bold">{item.role}</span>
+                  <br /> @{""}
                   <span className="italic">{item.company}</span>
                 </div>
                 <div className="text-[14px] md:text-[16px] text-gray-300 leading-4">

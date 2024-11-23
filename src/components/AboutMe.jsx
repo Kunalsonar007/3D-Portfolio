@@ -43,7 +43,7 @@ const AboutMe = () => {
     },
     {
       year: "Aug 2021 - Jan 2022",
-      role: "Jr Software Developer (𝘐𝘯𝘵𝘦𝘳𝘯)",
+      role: "WordPress Developer (𝘐𝘯𝘵𝘦𝘳𝘯)",
       company: "SBIT W.L.L.",
       description:
         "Worked extensively with WordPress to maintain and enhance e-commerce and other websites.",

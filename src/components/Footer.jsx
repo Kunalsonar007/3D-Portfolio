@@ -16,7 +16,7 @@ const Footer = () => {
                         </div>
                         <div>kunalwankhede958@gmail.com</div>
                     </div>
-                    <ul className="flex 2xl:text-[20px] gap-5 md:gap-8">
+                    <ul className="flex 2xl:text-[20px] gap-4 md:gap-8">
                         <li
                             className="cursor-pointer transition active:scale-90"
                             onClick={() => scrollTo("about")}

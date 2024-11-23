@@ -52,9 +52,8 @@ const Testimonials = () => {
               </div>
               <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
                 Kunal is an outstanding developer who brings clarity and focus
-                to every project. His technical expertise and leadership skills
-                inspire everyone around him. Working alongside him has been an
-                enriching experience, and his contributions have significantly
+                to every project. His technical expertise skills inspire
+                everyone around him and his contributions have significantly
                 strengthened our team.
               </div>
             </div>

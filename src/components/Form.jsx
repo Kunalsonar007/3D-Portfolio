@@ -81,7 +81,7 @@ const Form = () => {
             <input
               name="from_name"
               type="text"
-              className="h-[64px] bg-white outline-none border-none text-black px-4"
+              className="h-[64px] bg-white outline-gray-300 outline border-none text-black px-4 rounded-lg"
               required
               autoComplete="off"
               onChange={onChange}
@@ -100,7 +100,7 @@ const Form = () => {
             <input
               name="from_email"
               type="email"
-              className="h-[64px] bg-white outline-none border-none text-black px-4"
+              className="h-[64px] bg-white outline-gray-300 outline border-none text-black px-4 rounded-lg"
               required
               autoComplete="off"
               onChange={onChange}
@@ -118,7 +118,7 @@ const Form = () => {
           </label>
           <textarea
             name="message"
-            className="h-[162px] bg-white outline-none border-none text-black p-4 resize-none"
+            className="h-[162px] bg-white outline-gray-300 outline border-none text-black p-4 resize-none rounded-lg"
             required
             onChange={onChange}
           />
@@ -126,7 +126,7 @@ const Form = () => {
         {/* MESSAGE - FORM FIELD END */}
 
         {/* SUBMIT BUTTON */}
-        <button className="bg-[#111111] h-[64px] max-w-[585px] text-[16px] transition-transform active:scale-[0.95]">
+        <button className="rounded-lg bg-[#111111] h-[64px] max-w-[585px] text-[16px] transition-transform active:scale-[0.95]">
           Send Contact Request Now
         </button>
         {/* SUBMIT BUTTON */}

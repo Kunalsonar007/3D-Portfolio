@@ -99,7 +99,7 @@ const HeroBanner = () => {
           <h1 className="text-[50px] md:text-[120px] 2xl:text-[120px] leading-[50px] md:leading-[125px]  2xl:leading-[140px] font-oswald uppercase">
             I Am A Software
             <br className="invisible md:visible" />
-            Developer
+            Engineer
           </h1>
         </motion.div>
         {/* BIG HEADING END */}
@@ -115,9 +115,12 @@ const HeroBanner = () => {
             👋 Hi, I Am <span className="font-semibold">Kunal Wankhede,</span>
           </div>
           <div className="max-w-[510px]">
-            a passionate and results-driven Software Developer with a keen eye
+            {/* a passionate and results-driven Software Engineer with a keen eye
             for detail and a strong commitment to delivering high-quality
-            problem sloution.
+            problem sloution. */}
+            Software Engineer @Snap Inc,I specialize in building innovative
+            solutions that bridge creativity and technology, making ideas come
+            alive through code.
           </div>
         </motion.div>
         {/* INTRO END */}
@@ -172,7 +175,11 @@ const HeroBanner = () => {
           >
             <img src={externalLinkIcon} alt="" className="w-[15px]" />
             <div className="text-black">
-              <a href="https://drive.google.com/file/d/1C1SLkJrSgBVxYxjJWl6DaaC4lYL6bmA2/view?usp=sharing" target="_blank" download="resume.pdf">
+              <a
+                href="https://drive.google.com/file/d/1C1SLkJrSgBVxYxjJWl6DaaC4lYL6bmA2/view?usp=sharing"
+                target="_blank"
+                download="resume.pdf"
+              >
                 Resume
               </a>
             </div>

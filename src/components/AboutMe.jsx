@@ -64,7 +64,7 @@ const AboutMe = () => {
       <Wrapper>
         {/* HEADING START */}
         <Div className="text-[40px] md:text-[90px] 2xl:text-[90px] leading-[52px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase mb-[25px] md:mb-[40px] 2xl:mb-[60px] flex flex-col relative">
-          <span>A software developer</span>
+          <span>A software Engineer</span>
           <span className="flex items-center gap-2">
             <span>Based</span>
             <img
@@ -81,7 +81,7 @@ const AboutMe = () => {
 
         {/* PARAGRAPH START */}
         <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-          My journey as a software developer started during my school years,
+          My journey as a software engineer started during my school years,
           where I discovered my love for problem-solving and coding. Since then,
           I have embarked on various exciting projects that have allowed me to
           grow both technically and personally.
